@@ -12,18 +12,21 @@
 
 </head>
 
-<body>
-    <header class="bg-[rgb(245, 248, 255)] my-[1.4rem]">
+<body class="overflow-x-hidden">
+    <header class="inter-font bg-[rgb(245, 248, 255)] my-[1.4rem]">
         <div class="max-w-[71.25rem] mx-auto px-4 flex  items-center justify-between h-20">
             <!-- Left: Logo -->
             <div>
-                <img class="w-[7.4375rem] h-[5.125rem]"
-                    src="./assets/logo.png" alt="Logo" />
+                <a href="#">
+                    <img class="w-[5.4375rem] sm:w-[7.4375rem] h-[4.125rem] sm:h-[5.125rem]" src="./assets/logo.png"
+                        alt="Logo" />
+                </a>
+
 
             </div>
 
             <!-- Right: Nav Links -->
-            <nav class="flex items-center space-x-10 text-gray-600">
+            <nav class="flex items-center space-x-10 text-gray-600 ml-auto">
                 <a href="#" class="hied font-semibold text-black">Home</a>
                 <a href="#" class="hied">Shop</a>
                 <a href="#" class="hied">About us</a>
@@ -36,10 +39,159 @@
     </header>
 
     <main>
-        <div
-            class=" my-[200px] bg-red-300 sm:bg-yellow-300 md:bg-green-300 lg:bg-blue-300 xl:bg-purple-300 p-8 text-white">
-            Responsive Background Color Box
-        </div>
+        <section class="overflow-hidden w-full mt-[5.875rem]
+noto-serif-font max-w-[71.25rem] mx-auto px-4 flex flex-col-reverse sm:flex-row  items-center justify-between">
+            <div class="hero-content mt-[3rem] sm:mt-0">
+                <h2 class="font-bold text-[1.5rem] sm:text-[4.0625rem] text-black">ALWAYS <span
+                        class="text-[#E95A08]">FRESH</span></h2>
+                <h2 class="font-bold text-[1.5rem] sm:text-[4.0625rem] text-[#E95A08]">FLOWERS</h2>
+                <P class="font-normal text-[1rem] sm:text-[1.375rem] text-black/50">Indulge your senses with the beauty
+                    and fragrance
+                    of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh
+                    flowers that are perfect for any occasion. </P>
+            </div>
+            <img class="w-full max-w-full h-auto" src="./assets/hero-flower.png" alt="" />
+
+        </section>
+        <section class="max-w-[71.25rem] mx-auto px-4 text-center mt-[4rem]">
+            <h2 class="font-bold text-[1.5rem] sm:text-[3.125rem]"> <span class="text-[#E95A08]">Our</span> Plants</h2>
+            <p
+                class="text-black/50 font-normal text-[0.875rem] sm:text-[1.375rem] leading-[1.0625rem] sm:leading-[1.6875rem]">
+                Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic
+                blooms, we offer a wide variety of fresh.</p>
+        </section>
+        <section
+            class="max-w-[71.25rem] mx-auto px-4 pt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-[2rem]">
+            <div>
+                <div class=" flex flex-col items-center shadow-md rounded">
+                    <img src="./assets/sample-flower-image.png" alt="Lily Blossom"
+                        class="w-full h-auto object-cover " />
+
+                    <h3 class="mt-[1rem] text-[1rem] sm:text-[1.375rem] font-medium leading-[150%] text-[#111111]">Lily
+                        Blossom</h3>
+                    <p class="text-[#111111] sm:text-[1.375rem] font-bold leading-[150%] mt-[0.25rem]">20 USD</p>
+
+                    <button
+                        class="mt-[1rem] w-full bg-[#E95A08] py-[0.5rem] text-white text-[1rem] font-semibold leading-[1.1875rem]">
+                        <a href="#"> ADD TO CART</a>
+                    </button>
+                </div>
+
+            </div>
+            <div>
+                <div class=" flex flex-col items-center shadow-md rounded">
+                    <img src="./assets/sample-flower-image.png" alt="Lily Blossom"
+                        class="w-full h-auto object-cover " />
+
+                    <h3 class="mt-[1rem] text-[1rem] sm:text-[1.375rem] font-medium leading-[150%] text-[#111111]">Lily
+                        Blossom</h3>
+                    <p class="text-[#111111] sm:text-[1.375rem] font-bold leading-[150%] mt-[0.25rem]">20 USD</p>
+
+                    <button
+                        class="mt-[1rem] w-full bg-[#E95A08] py-[0.5rem] text-white text-[1rem] font-semibold leading-[1.1875rem]">
+                        <a href="#"> ADD TO CART</a>
+                    </button>
+                </div>
+
+            </div>
+            <div>
+                <div class=" flex flex-col items-center shadow-md rounded">
+                    <img src="./assets/sample-flower-image.png" alt="Lily Blossom"
+                        class="w-full h-auto object-cover " />
+
+                    <h3 class="mt-[1rem] text-[1rem] sm:text-[1.375rem] font-medium leading-[150%] text-[#111111]">Lily
+                        Blossom</h3>
+                    <p class="text-[#111111] sm:text-[1.375rem] font-bold leading-[150%] mt-[0.25rem]">20 USD</p>
+
+                    <button
+                        class="mt-[1rem] w-full bg-[#E95A08] py-[0.5rem] text-white text-[1rem] font-semibold leading-[1.1875rem]">
+                        <a href="#"> ADD TO CART</a>
+                    </button>
+                </div>
+
+            </div>
+            <div>
+                <div class=" flex flex-col items-center shadow-md rounded">
+                    <img src="./assets/sample-flower-image.png" alt="Lily Blossom"
+                        class="w-full h-auto object-cover " />
+
+                    <h3 class="mt-[1rem] text-[1rem] sm:text-[1.375rem] font-medium leading-[150%] text-[#111111]">Lily
+                        Blossom</h3>
+                    <p class="text-[#111111] sm:text-[1.375rem] font-bold leading-[150%] mt-[0.25rem]">20 USD</p>
+
+                    <button
+                        class="mt-[1rem] w-full bg-[#E95A08] py-[0.5rem] text-white text-[1rem] font-semibold leading-[1.1875rem]">
+                        <a href="#"> ADD TO CART</a>
+                    </button>
+                </div>
+
+            </div>
+            <div>
+                <div class=" flex flex-col items-center shadow-md rounded">
+                    <img src="./assets/sample-flower-image.png" alt="Lily Blossom"
+                        class="w-full h-auto object-cover " />
+
+                    <h3 class="mt-[1rem] text-[1rem] sm:text-[1.375rem] font-medium leading-[150%] text-[#111111]">Lily
+                        Blossom</h3>
+                    <p class="text-[#111111] sm:text-[1.375rem] font-bold leading-[150%] mt-[0.25rem]">20 USD</p>
+
+                    <button
+                        class="mt-[1rem] w-full bg-[#E95A08] py-[0.5rem] text-white text-[1rem] font-semibold leading-[1.1875rem]">
+                        <a href="#"> ADD TO CART</a>
+                    </button>
+                </div>
+
+            </div>
+            <div>
+                <div class=" flex flex-col items-center shadow-md rounded">
+                    <img src="./assets/sample-flower-image.png" alt="Lily Blossom"
+                        class="w-full h-auto object-cover " />
+
+                    <h3 class="mt-[1rem] text-[1rem] sm:text-[1.375rem] font-medium leading-[150%] text-[#111111]">Lily
+                        Blossom</h3>
+                    <p class="text-[#111111] sm:text-[1.375rem] font-bold leading-[150%] mt-[0.25rem]">20 USD</p>
+
+                    <button
+                        class="mt-[1rem] w-full bg-[#E95A08] py-[0.5rem] text-white text-[1rem] font-semibold leading-[1.1875rem]">
+                        <a href="#"> ADD TO CART</a>
+                    </button>
+                </div>
+
+            </div>
+            <div>
+                <div class=" flex flex-col items-center shadow-md rounded">
+                    <img src="./assets/sample-flower-image.png" alt="Lily Blossom"
+                        class="w-full h-auto object-cover " />
+
+                    <h3 class="mt-[1rem] text-[1rem] sm:text-[1.375rem] font-medium leading-[150%] text-[#111111]">Lily
+                        Blossom</h3>
+                    <p class="text-[#111111] sm:text-[1.375rem] font-bold leading-[150%] mt-[0.25rem]">20 USD</p>
+
+                    <button
+                        class="mt-[1rem] w-full bg-[#E95A08] py-[0.5rem] text-white text-[1rem] font-semibold leading-[1.1875rem]">
+                        <a href="#"> ADD TO CART</a>
+                    </button>
+                </div>
+
+            </div>
+            <div>
+                <div class=" flex flex-col items-center shadow-md rounded">
+                    <img src="./assets/sample-flower-image.png" alt="Lily Blossom"
+                        class="w-full h-auto object-cover " />
+
+                    <h3 class="mt-[1rem] text-[1rem] sm:text-[1.375rem] font-medium leading-[150%] text-[#111111]">Lily
+                        Blossom</h3>
+                    <p class="text-[#111111] sm:text-[1.375rem] font-bold leading-[150%] mt-[0.25rem]">20 USD</p>
+
+                    <button
+                        class="mt-[1rem] w-full bg-[#E95A08] py-[0.5rem] text-white text-[1rem] font-semibold leading-[1.1875rem]">
+                        <a href="#"> ADD TO CART</a>
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
 
 
     </main>
