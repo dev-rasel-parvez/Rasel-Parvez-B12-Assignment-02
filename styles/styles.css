@@ -19,11 +19,10 @@
         "wdth" 100;
 }
 
-/* .heid {
-    display: none;
-} */
+/* nav some li hide */
+
 @media screen and (max-width:640px) {
-    .hied {
+    .hide{
         display: none;
     }
 }
